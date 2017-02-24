@@ -4,7 +4,7 @@ class ProductsController < ApplicationController
     @products = Product.all
     render json: @products
   end
-#
+#updated bundler
   def show
     @product = Product.find(params[:id])
     render json: @product

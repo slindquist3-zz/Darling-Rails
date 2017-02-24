@@ -21,5 +21,8 @@ module RailsFolder
 
     config.autoload_paths << Rails.root.join('lib')
 
+    config.api_only = true
+
+
   end
 end

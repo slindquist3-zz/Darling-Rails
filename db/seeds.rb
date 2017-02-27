@@ -7,3 +7,4 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 bob = User.create(name: "Bob", email: "bob@bob.com", password: "bob")
+#test to see if nav-bar works
